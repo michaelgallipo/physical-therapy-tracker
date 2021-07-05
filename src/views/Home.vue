@@ -1,6 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
+    <img id="logo" alt="Frankie the Ferret" src="../assets/MLH-Mascots.png" />
+    <img id="splash" alt="leg extension machine" src="../assets/Splash.jpg" />
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   </div>
 </template>
@@ -16,3 +17,15 @@ export default {
   // }
 };
 </script>
+
+<style>
+#logo {
+  height: 150px;
+  width: 150px;
+}
+
+#splash {
+  width: 90vw;
+  margin-top: 20px;
+}
+</style>

@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <div id="nav">
+      <div id="title">Phsyical Therapy Tracker</div>
       <router-link to="/">Home</router-link> |
-      <router-link to="/activities">Activities</router-link> |
-      <router-link to="/add">Add Activitiy</router-link>
+      <router-link to="/activities">Activities</router-link>
+      <!-- <router-link to="/add">Add Activitiy</router-link> -->
     </div>
     <router-view />
   </div>
@@ -18,7 +19,8 @@
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  padding: 25px;
+  display: block;
 }
 
 #nav a {
@@ -28,5 +30,13 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#title {
+  font-size: 14px;
+  position: absolute;
+  text-align: left;
+  font-weight: bolder;
+  font-style: italic;
 }
 </style>

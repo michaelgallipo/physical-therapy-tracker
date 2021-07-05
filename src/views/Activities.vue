@@ -85,17 +85,23 @@ export default {
       exercises: [],
       activities: exerciseData,
       exercise_filter: "",
-      newActivity: {}
+      newActivity: {
+        exercise: "",
+        date: "",
+        reps: "",
+        weight: "",
+        time: ""
+      }
     };
   },
   methods: {
     addActivity: (newActivity, activities) => {
       activities.push(newActivity);
-      newActivity.exercise = "";
-      newActivity.date = "";
-      newActivity.reps = "";
-      newActivity.weight = "";
-      newActivity.time = "";
+      //   newActivity.exercise = "";
+      //   newActivity.date = "";
+      //   newActivity.reps = "";
+      //   newActivity.weight = "";
+      //   newActivity.time = "";
     }
   }
 };
@@ -113,6 +119,8 @@ h1 {
 table {
   border-collapse: collapse;
   width: 90vw;
+  background-color: lightgray;
+  color: black;
   /* margin-left: 5vw; */
 }
 
