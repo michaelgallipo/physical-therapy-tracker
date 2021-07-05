@@ -27,7 +27,7 @@
           placeholder="Reps"
         />
       </div>
-      <div class="col-sm-1">
+      <div class="col-sm-2">
         <input
           type="number"
           class="form-control"
